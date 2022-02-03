@@ -1,10 +1,5 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan 31 16:13:04 2019
+# Copyright 2019? Nathan Hara
 
-@author: nathan
-"""
 import numpy as np
 
 

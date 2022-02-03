@@ -1,22 +1,4 @@
-# -*- coding: utf-8 -*-
-
 # Copyright 2020 Nathan Hara
-#
-#  This file is part of the l1periodogram code.
-#
-# rvmodel is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# rvmodel is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with l1periodogram.  If not, see <http://www.gnu.org/licenses/>.
-
 import pandas as pd
 import numpy  as np
 from l1periodogram import filter_poly
@@ -27,7 +9,6 @@ def create_dataset(dataset_names,
                    sigmas_inst = None, 
                    bintimescale = 0,
                    trenddegree: int = 2):
-    
     '''
     Concatenates the data from different files
 
