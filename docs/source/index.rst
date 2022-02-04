@@ -62,7 +62,7 @@ Python packaging by Denis Rosset.
 Changelog
 ~~~~~~~~~
 
-.. include:: ../HISTORY.rst
+.. include:: ../../HISTORY.rst
 
 .. toctree::
    :hidden:
